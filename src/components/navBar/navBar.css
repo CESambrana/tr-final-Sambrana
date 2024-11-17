@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(56, 56, 56, 0.411);
+  padding: 3rem;
+}
+.titulo {
+  font-size: 5rem !important;
+  color: rgba(139, 19, 19, 0.685) !important;
+  text-decoration: none;
+}
+
+.iconCart {
+  color: rgba(139, 19, 19, 0.685);
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.logo {
+  color: rgba(139, 19, 19, 0.685);
+  font-size: 8rem;
+}

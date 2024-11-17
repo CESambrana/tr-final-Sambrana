@@ -1,0 +1,67 @@
+.carrito {
+  padding: 3rem 0 0 0;
+  min-height: 70rem;
+  background-color: antiquewhite;
+  text-align: center;
+}
+.tituloCart {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: rgba(56, 56, 56, 0.411);
+  margin: 0;
+  text-align: center;
+  color: rgba(139, 19, 19, 0.685);
+  font-size: 2.4rem;
+}
+
+.carritoConteiner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10rem;
+  max-width: 120rem;
+  margin: 0.5rem auto;
+  background-color: rgb(209, 209, 209);
+  border-top: 0.1rem solid rgba(97, 97, 97, 0.411);
+  border-bottom: 0.1rem solid rgba(97, 97, 97, 0.411);
+}
+
+.carritoConteiner img {
+  height: 100%;
+}
+
+.cartPrecio span {
+  font-size: 2rem;
+}
+.precioParcial {
+  color: green;
+}
+.botonEliminar {
+  font-size: 3.5rem;
+  border: none;
+  background-color: rgb(209, 209, 209);
+}
+.vaciarCarrito {
+  font-size: 2rem;
+  border: 0.1rem solid rgb(212, 212, 212);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: antiquewhite;
+}
+
+.vaciarCarrito:hover {
+  background-color: bisque;
+  color: white;
+}
+
+.terminarCompra {
+  font-size: 2rem;
+  border: 0.1rem solid rgb(212, 212, 212);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgb(91, 175, 91);
+}
+.terminarCompra:hover {
+  background-color: bisque;
+  color: white;
+}
